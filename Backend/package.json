@@ -11,6 +11,8 @@
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.35.0",
     "dot-env": "^0.0.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
