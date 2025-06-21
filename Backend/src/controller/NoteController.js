@@ -8,7 +8,6 @@ export async function getAllNotes(req, res) {
     if (!note || note.length === 0) {
       return res.status(404).json({ message: "No notes found" });
     }
-
     res.status(200).json(note);
   } catch (error) {
     console.error("Error fetching notes:", error.message);
